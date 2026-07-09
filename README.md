@@ -3,13 +3,15 @@
 Developed by: **Mohamed Rafaa Tounekti**  
 Contact: https://www.linkedin.com/in/mohamed-rafaa-tounekti/
 
-Automates withdrawing sent LinkedIn invitations — with auto-scroll, pause/resume, and completion summary.
+Automates withdrawing sent LinkedIn invitations — with auto-scroll, pause/resume, cancel, and live progress.
 
 ## Features
 
 - **Auto-scroll** — loads all sent invitations before starting (handles lazy loading)
-- **Configurable speed** — 2s between withdrawals
+- **Cancel button** — stop the process at any time
 - **Pause/Resume** — floating button at top-right of the page
+- **Live counter** — shows real-time progress on the button
+- **Configurable speed** — 2s between withdrawals
 - **Completion summary** — shows total withdrawn when done
 
 ## Installation
@@ -29,13 +31,9 @@ Or drag the `linkedin-withdraw.user.js` file (from this repo) into Firefox.
 
 ## Firefox Addon (no Violentmonkey needed)
 
-The addon is signed and approved by Mozilla. Install as a permanent Firefox extension:
+[Install from Firefox Add-ons Store](https://addons.mozilla.org/en-US/firefox/addon/linkedin-withdraw-automation/)
 
-1. Download the signed `.xpi` from [GitHub Releases](https://github.com/rafaabou/linkedin-withdraw/releases)
-2. Firefox → `about:addons` → gear icon → **"Install Add-on From File..."**
-3. Select the downloaded `.xpi`
-
-No configuration needed — installs permanently, survives restarts, no warnings.
+No configuration needed — installs permanently, survives restarts, no warnings. Works on both desktop and Android.
 
 ## Usage
 

@@ -3,7 +3,7 @@
   "name": "LinkedIn Withdraw Automation",
   "version": "3.0",
   "description": "Automates withdrawing LinkedIn sent invitations",
-  "homepage_url": "https://www.linkedin.com/",
+  "homepage_url": "https://github.com/rafaabou/linkedin-withdraw",
   "icons": {
     "48": "icons/icon-48.png",
     "96": "icons/icon-96.png"
