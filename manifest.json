@@ -1,7 +1,7 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "LinkedIn Withdraw Automation",
-  "version": "2.0",
+  "version": "3.0",
   "description": "Automates withdrawing LinkedIn sent invitations",
   "homepage_url": "https://www.linkedin.com/",
   "icons": {
@@ -10,15 +10,15 @@
   },
   "content_scripts": [
     {
-      "matches": ["*://*.linkedin.com/*"],
+      "matches": ["*://*.linkedin.com/mynetwork/invitation-manager/sent/*"],
       "js": ["content.js"],
-      "run_at": "document_end"
+      "run_at": "document_idle"
     }
   ],
   "browser_specific_settings": {
     "gecko": {
       "id": "linkedin-withdraw@halimbahae.dev",
-      "strict_min_version": "58.0"
+      "strict_min_version": "109.0"
     }
   }
 }

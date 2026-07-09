@@ -1,7 +1,7 @@
 # LinkedIn Withdrawal Automation
 
-Developed by: **Bahae Eddine HALIM**  
-Contact: https://www.linkedin.com/in/halimbahae/
+Developed by: **Mohamed Rafaa Tounekti**  
+Contact: https://www.linkedin.com/in/mohamed-rafaa-tounekti/
 
 Automates withdrawing sent LinkedIn invitations — with auto-scroll, pause/resume, and completion summary.
 
