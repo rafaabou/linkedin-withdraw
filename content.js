@@ -42,7 +42,7 @@
             'align-items: center',
             'gap: 8px'
         ].join('; ');
-        btn.innerHTML = '\u23F8 Pause';
+        btn.textContent = '\u23F8 Pause';
         btn.addEventListener('click', togglePause);
         document.body.appendChild(btn);
         return btn;
@@ -81,13 +81,13 @@
         const btn = document.getElementById('li-withdraw-control');
         if (!btn) return;
         if (paused) {
-            btn.innerHTML = '\u25B6 Resume (' + processedCount + ')';
+            btn.textContent = '\u25B6 Resume (' + processedCount + ')';
             btn.style.background = '#666';
         } else if (running) {
-            btn.innerHTML = '\u23F8 Withdrawing (' + processedCount + ')';
+            btn.textContent = '\u23F8 Withdrawing (' + processedCount + ')';
             btn.style.background = '#0a66c2';
         } else {
-            btn.innerHTML = '\u23F8 Pause';
+            btn.textContent = '\u23F8 Pause';
             btn.style.background = '#0a66c2';
         }
     }
@@ -114,7 +114,7 @@
         console.log('[LI-Withdraw] Cancelled by user. Total withdrawn: ' + totalCount);
         const control = document.getElementById('li-withdraw-control');
         if (control) {
-            control.innerHTML = '\u2716 Cancelled (' + totalCount + ')';
+            control.textContent = '\u2716 Cancelled (' + totalCount + ')';
             control.style.background = '#b32400';
             control.style.cursor = 'default';
             control.removeEventListener('click', togglePause);
@@ -146,7 +146,7 @@
         setTimeout(function() { div.remove(); }, 5000);
         const btn = document.getElementById('li-withdraw-control');
         if (btn) {
-            btn.innerHTML = 'Done (' + totalCount + ')';
+            btn.textContent = 'Done (' + totalCount + ')';
             btn.style.background = '#057642';
             btn.style.cursor = 'default';
             btn.removeEventListener('click', togglePause);
