@@ -1,0 +1,9 @@
+*.xpi
+*.zip
+google*.html
+.DS_Store
+Thumbs.db
+node_modules/
+web-ext-artifacts/
+.amo-upload-uuid
+.wolf/
